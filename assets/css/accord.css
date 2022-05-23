@@ -1,0 +1,70 @@
+/* #main {
+     margin: 50px 0; 
+  }
+   */
+  #main #faq .card {
+    margin-bottom: 20px;
+    border: 0;
+  }
+  
+  #main #faq .card .card-header {
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  .accordion > .card > .card-header {
+      margin: 0;
+  }
+
+  .card .card-body {
+    border: 1px solid #fff;
+  }
+  #main #faq .card .card-header .btn-header-link {
+    /* color: #fff; */
+    display: block;
+    text-align: left;
+    /* background: #FFE472;
+    color: #222; */
+    background: #191c24;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #main #faq .card .card-header .btn-header-link:after {
+    content: "\25B2";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    background: #191c24;
+    color: #fff;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\25bc";
+  }
+  
+  #main #faq .card .collapsing {
+    background: #191c24;
+    line-height: 30px;
+  }
+  
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  
+  #main #faq .card .collapse.show {
+    /* background: #FFE472; */
+    line-height: 30px;
+    /* color: #222; */
+    background: #191c24;
+    color: #fff;
+}
+
+  #main .container-fluid {
+      padding: 0;
+  }
